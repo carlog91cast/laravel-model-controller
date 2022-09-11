@@ -11,7 +11,7 @@
 
 <body>
     <div class="container-fluid bg-dark">
-        <h1 class="text-primary text-center">Movies List</h1>
+        <h1 class="text-primary text-center pt-3">Movies List</h1>
         <ul class="list-group p-5">
             @foreach($movies as $movie)
             <li class="list-group-item text-center bg-secondary">{{$movie->title}}</li>
